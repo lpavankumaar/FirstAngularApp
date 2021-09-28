@@ -34,4 +34,4 @@ jobs:
           app-name: 'theangularapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FE6490A9F4A441B68A2D759B4E74CE0B }}
-          package: .\dist\FirstAngularApp
+          package: .
