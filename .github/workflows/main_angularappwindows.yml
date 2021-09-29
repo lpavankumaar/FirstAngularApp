@@ -34,4 +34,4 @@ jobs:
           app-name: 'angularappwindows'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1C01ED0A14644B309691C946906ED7AA }}
-          package: ./dist/angularappwindows/
+          package: ./dist/angularappwindows
