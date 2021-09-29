@@ -34,4 +34,4 @@ jobs:
           app-name: 'thetechsign'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1195790465B949D0B80BDD4AAB64258C }}
-          package: ./src/
+          package: ./dist/angular-basic/
